@@ -1,1 +1,0 @@
-Hello thanks for stopping by my README. This is a challenge using HTML and CSS with Frontendmentor. The main goal of the project is to make a profile card component as close to the design using HTML CSS. Let me know if have any suggestions I am new to this thank you!
