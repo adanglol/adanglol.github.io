@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+// CSS file for our App component
 import './App.css';
 
-function App() {
+// export keyword is used to export a function, class, or variable from a module.
+
+export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reactdfd
-        </a>
-      </header>
+      <h1>MY APP</h1>
     </div>
   );
 }
 
-export default App;
+export function Navbar() {
+  return (
+    <nav>
+      <h1>My Navbar</h1>
+    </nav>
+  )
+}
+
+// export default App;
+// export default Navbar;
+// export * from './App';
