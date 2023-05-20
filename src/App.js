@@ -1,8 +1,8 @@
 // CSS file for our App component
 import './App.css';
 
-// React
-import React from 'react';
+// React and useEffect hook for scroll position
+import { React,useEffect } from 'react';
 
 // import our components from the Components.js file
 import * as Components from './Components';
@@ -21,6 +21,7 @@ import background from './images/clubspic.jpg';
 
 // routing for our views 
 import {Link} from 'react-router-dom';
+
 
 
 // export keyword is used to export a function, class, or variable from a module.
@@ -48,40 +49,33 @@ export function App() {
 function Home() {
   return (
     <>
-      {/* <div className='text-center animate__animated animate__backInDown animate_slower d-flex justify-content-center align-items-center vh-100 px-3'>
-        <div className='w-50'>
-          <h1 className='fs-1'>Hello, I'm <i>Aaron Dangc</i></h1>
-          <br/>
-          <h1 className='fs-1'>I am an aspiring <i>Web Developer!</i></h1>
-          <br/>
-          <p className='fs-1'>You can find more about me <Link to='/about'>here</Link></p>
-        </div>
-
-        <div className='w-50'>
-          <img src={background} alt='background' className='img-fluid'/>
-        </div>
-      </div> */}
-
-      <div className='text-center animate__animated animate__backInDown animate_slower vh-100 px-3'>
-            <div className='row justify-content-center align-items-center h-100'>
-              <div className='col-md-6'>
-                <h1 className='fs-1'>Hello, I'm <i>Aaron Dangc</i></h1>
-                <br/>
-                <h1 className='fs-1'>I am an aspiring <i>Web Developer!</i></h1>
-                <br/>
-                <p className='fs-1'>You can find more about me <Link to='/about'>here</Link></p>
-              </div>
-              <div className='col-md-6 mt-4 mt-md-0'>
-                <img src={background} alt='background' className='img-fluid'/>
-              </div>
-            </div>
+      <div className="text-center animate__animated animate__backInDown animate_slower vh-100 px-3">
+        <div className="row justify-content-center align-items-center h-100">
+          <div className="col-md-6 col-sm-12 mb-4 mb-md-0 animate__animated animate__backInLeft animate__delay-1s">
+            <h1 className="fs-1 mt-5 mt-lg-0">Hello, I'm <i>Aaron Dangc</i></h1>
+            <br />
+            <h1 className="fs-1">I am an aspiring Web Developer and Artist!</h1>
+            <br />
+            <p className="fs-1">You can find more about me <Link to="/about">here</Link></p>
           </div>
+          <div className="col-md-6 col-sm-12">
+            <img src={background} alt="background" className="img-fluid" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
 
 function About() {
-  return <h1>About</h1>;
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  return(
+    <>
+      <h1 className='mt-5 pt-5 text-center'>About</h1>
+    </>
+  );
 }
 
 function Resume() {

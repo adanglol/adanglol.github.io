@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function NavbarComponent() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className='px-5' id = 'nav'>
+    <Navbar bg="dark" variant="dark" expand="lg" className='px-5' id = 'nav' fixed='top'>
       <Navbar.Brand href="#home" className='fs-1' as={Link} to='/'>Aaron Dangc</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav"/>
       <Navbar.Collapse id="navbar-nav" className="justify-content-end">
