@@ -8,7 +8,8 @@ import { React,useEffect } from 'react';
 import * as Components from './Components';
 
 // setting up the routing for our navbar and components in general
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Browser Router
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
