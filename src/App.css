@@ -1,2 +1,6 @@
 /* CSS FOR OUR APPLICATION FOR OUR COMPONENTS AND SUCH */
 
+/* so cant resize message text box */
+.resize-none {
+    resize: none;
+  }

@@ -63,17 +63,25 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="text-center animate__animated animate__backInUp animate_slower vh-100 px-3">
+        <p className="fs-1">Projects</p>
+      </div>
+
+
     </>
   );
 }
 
 function About() {
   useEffect(() => {
+    // Scroll to the top of the page when the About component is rendered
     window.scrollTo(0, 0)
   }, [])
   return(
     <>
-      <h1 className='mt-5 pt-5 text-center'>About</h1>
+      <h1 className='mt-5 pt-5 text-center display-1'>About</h1>
+      <a href='https://google.com'>GOOGLE</a>
     </>
   );
 }
@@ -87,6 +95,16 @@ function Projects() {
 }
 
 function Contact() {
-  return <h1>Contact</h1>;
+  return (
+  <>
+    <h1 className='mt-5 pt-5 text-center display-1'>CONTACT</h1>
+    <br/>
+    <br/>
+    <p className='display-6 text-center'>Feel free to reach out to me here using this form!</p>
+    <br/>
+    <br/>
+    <Components.ContactForm/>
+  </>
+  );
 }
 
