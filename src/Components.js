@@ -54,8 +54,9 @@ export function ContactForm() {
   
       // Send email request to backend server
       // http://localhost:4000/send-email
+      // https://adanglol-backend-b3a02bbea64a.herokuapp.com/send-email
       axios
-        .post('http://localhost:4000/send-email', emailData)
+        .post('https://adanglol-backend-b3a02bbea64a.herokuapp.com/send-email', emailData)
         .then((response) => {
           console.log('Email sent successfully:', response.data);
           // Handle success, show a success message, reset form fields, etc.
