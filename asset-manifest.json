@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.74f41956.css",
-    "main.js": "/static/js/main.219e281b.js",
+    "main.js": "/static/js/main.70f600e5.js",
     "static/js/787.9c4499da.chunk.js": "/static/js/787.9c4499da.chunk.js",
+    "static/media/Jam3.pdf": "/static/media/Jam3.0e020a28b28228a8085e.pdf",
+    "static/media/Unlocked.png": "/static/media/Unlocked.4d99184b48ed0bcefd3f.png",
     "static/media/clubspic.jpg": "/static/media/clubspic.09957a2f436100fffdc5.jpg",
+    "static/media/Jam1.pdf": "/static/media/Jam1.e79bce99ab8b56ca4af6.pdf",
     "static/media/Cosmic.png": "/static/media/Cosmic.f677c4aab7cea8c5d03b.png",
     "static/media/profile.jpg": "/static/media/profile.f7b1507e6c0282d48641.jpg",
     "static/media/GreenSeren.png": "/static/media/GreenSeren.4421234e217db2e2ed96.png",
+    "static/media/Jam2.pdf": "/static/media/Jam2.788220951d5a381c43dd.pdf",
     "static/media/Brain.png": "/static/media/Brain.caf496a55b9d10f94251.png",
     "static/media/Resume(AD).pdf": "/static/media/Resume(AD).30db3fda217ac18dd78c.pdf",
+    "static/media/CoverLetter.pdf": "/static/media/CoverLetter.8d2a3c2d4a0082ffc3dc.pdf",
     "index.html": "/index.html",
     "main.74f41956.css.map": "/static/css/main.74f41956.css.map",
-    "main.219e281b.js.map": "/static/js/main.219e281b.js.map",
+    "main.70f600e5.js.map": "/static/js/main.70f600e5.js.map",
     "787.9c4499da.chunk.js.map": "/static/js/787.9c4499da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74f41956.css",
-    "static/js/main.219e281b.js"
+    "static/js/main.70f600e5.js"
   ]
 }
