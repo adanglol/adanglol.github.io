@@ -32,8 +32,22 @@ import greenSerenity from './images/project/GreenSeren.png';
 // import Brain Rhapsody image
 import brainRhapsody from './images/project/Brain.png';
 
+// import unlocked image
+import unlocked from './images/project/Unlocked.png';
+
 
 import pdf from './images/resume/Resume(AD).pdf';
+
+// cover letter and postmoretm for 3 projects
+import coverLetter from './images/resume/CoverLetter.pdf';
+
+import postmortem from './images/resume/Jam1.pdf';
+
+import postmortem2 from './images/resume/Jam2.pdf';
+
+import postmortem3 from './images/resume/Jam3.pdf';
+
+
 // routing for our views 
 import {Link} from 'react-router-dom';
 
@@ -157,6 +171,12 @@ function Resume() {
           <h1>Download Resume</h1>
         </a>
       </p>
+      <h1 className='mt-5 pt-5 text-center display-1'>Cover Letter</h1>
+      <p className="text-center">
+        <a href={coverLetter} target="_blank" rel="noopener noreferrer" download>
+          <h1>Download Cover Letter</h1>
+        </a>
+      </p>
       <h1 className='mt-5 pt-5 text-center display-1'>Feel free to check it out!</h1>
     </>
   );
@@ -213,7 +233,9 @@ function Projects() {
           <h2>Role: Lead Programmer</h2>
           <br/>
           <a href='https://adanglol.github.io/green-serenity/' target="_blank" rel="noopener noreferrer"><h3>Visit project</h3></a>
-
+          <a href={postmortem} target="_blank" rel="noopener noreferrer" download>
+          <h3>Post Mortem</h3>
+          </a>
           {/* Add more projects as needed */}
         </Col>
       </Row>
@@ -238,7 +260,36 @@ function Projects() {
           <h2>Role: Lead Programmer</h2>
           <br/>
           <a href='https://jodortiz.itch.io/brain-rhapsody' target="_blank" rel="noopener noreferrer"><h3>Visit project</h3></a>
+          <a href={postmortem2} target="_blank" rel="noopener noreferrer" download>
+          <h3>Post Mortem 2</h3>
+          </a>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
 
+      <hr className="my-5" />
+      <Row className="mt-4">
+        {/* First column with pictures or carousel */}
+        <Col lg={7}>
+          {/* Add your picture or carousel component here */}
+          {/* For example, if using an image: */}
+          <img src={unlocked} alt="Project 1" className="img-fluid" />
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Unlocked</b></h1>
+          <h2>Escape room type of game. Game involves solving puzzles in order to escape a haunted mansion. You have 20 min to try to escape or something unfolds.</h2>
+          <br/>
+          <h2>Technologies used: Godot</h2>
+          <br/>
+          <h2>Role: Lead Programmer</h2>
+          <br/>
+          <a href='https://hmai.itch.io/unlocked' target="_blank" rel="noopener noreferrer"><h3>Visit project</h3></a>
+          <a href={postmortem3} target="_blank" rel="noopener noreferrer" download>
+          <h3>Post Mortem 3</h3>
+          </a>
           {/* Add more projects as needed */}
         </Col>
       </Row>
