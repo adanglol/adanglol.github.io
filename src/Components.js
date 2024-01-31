@@ -66,8 +66,9 @@ export function ContactForm() {
           setMessage('');
         })
         .catch((error) => {
-          console.error('Error sending email:', error.response.data.message);
+          // console.error('Error sending email:', error.response.data.message);
           // Handle error, show an error message, etc.
+          alert('Seems like form is not working at the moment feel free to email me! Sorry for the inconvenience looking foward to talking with you!'); // show an error message
         });
     };
   
