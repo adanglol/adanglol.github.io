@@ -35,10 +35,13 @@ import brainRhapsody from './images/project/Brain.png';
 // import unlocked image
 import unlocked from './images/project/Unlocked.png';
 
+// Resume
+import pdf from './images/resume/RESUME.pdf';
 
-import pdf from './images/resume/Resume(AD).pdf';
+// CRV
+import CRV from './images/resume/CRV.pdf';
 
-// cover letter and postmoretm for 3 projects
+// Cover Letter
 import coverLetter from './images/resume/CoverLetter.pdf';
 
 import postmortem from './images/resume/Jam1.pdf';
@@ -135,8 +138,16 @@ function About() {
             Here, you can learn more about me and my journey.
           </h1>
           <br />
-          <h1>
+          {/* <h1>
             I am dedicated to creating medias of play in form of games and websites. Feel free to
+            explore my projects and get in touch if you have any inquiries.
+          </h1> */}
+          <h1>
+                In the realm of game and web development, I find solace and passion in the intricate dance between lines of code and the birth of virtual worlds. As someone deeply immersed in the world of programming, my journey as a developer is not just a profession but a relentless pursuit of turning ideas into tangible, interactive realities.
+          </h1>
+          <br/>
+          <h1>
+          Feel free to
             explore my projects and get in touch if you have any inquiries.
           </h1>
           <br />
@@ -169,6 +180,12 @@ function Resume() {
       <p className="text-center">
         <a href={pdf} target="_blank" rel="noopener noreferrer" download>
           <h1>Download Resume</h1>
+        </a>
+      </p>
+      <h1 className='mt-5 pt-5 text-center display-1'>CRV</h1>
+      <p className="text-center">
+        <a href={CRV} target="_blank" rel="noopener noreferrer" download>
+          <h1>Download CRV</h1>
         </a>
       </p>
       <h1 className='mt-5 pt-5 text-center display-1'>Cover Letter</h1>
