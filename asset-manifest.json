@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.74f41956.css",
-    "main.js": "/static/js/main.70f600e5.js",
+    "main.css": "/static/css/main.4544a157.css",
+    "main.js": "/static/js/main.1042c8d5.js",
     "static/js/787.9c4499da.chunk.js": "/static/js/787.9c4499da.chunk.js",
     "static/media/Jam3.pdf": "/static/media/Jam3.0e020a28b28228a8085e.pdf",
     "static/media/Unlocked.png": "/static/media/Unlocked.4d99184b48ed0bcefd3f.png",
@@ -12,15 +12,16 @@
     "static/media/GreenSeren.png": "/static/media/GreenSeren.4421234e217db2e2ed96.png",
     "static/media/Jam2.pdf": "/static/media/Jam2.788220951d5a381c43dd.pdf",
     "static/media/Brain.png": "/static/media/Brain.caf496a55b9d10f94251.png",
-    "static/media/Resume(AD).pdf": "/static/media/Resume(AD).30db3fda217ac18dd78c.pdf",
-    "static/media/CoverLetter.pdf": "/static/media/CoverLetter.8d2a3c2d4a0082ffc3dc.pdf",
+    "static/media/CRV.pdf": "/static/media/CRV.2e37e3071b79a83412c0.pdf",
+    "static/media/RESUME.pdf": "/static/media/RESUME.574fce2e0f2a6da9f9ac.pdf",
+    "static/media/CoverLetter.pdf": "/static/media/CoverLetter.74ac7052e67db28d34af.pdf",
     "index.html": "/index.html",
-    "main.74f41956.css.map": "/static/css/main.74f41956.css.map",
-    "main.70f600e5.js.map": "/static/js/main.70f600e5.js.map",
+    "main.4544a157.css.map": "/static/css/main.4544a157.css.map",
+    "main.1042c8d5.js.map": "/static/js/main.1042c8d5.js.map",
     "787.9c4499da.chunk.js.map": "/static/js/787.9c4499da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74f41956.css",
-    "static/js/main.70f600e5.js"
+    "static/css/main.4544a157.css",
+    "static/js/main.1042c8d5.js"
   ]
 }
