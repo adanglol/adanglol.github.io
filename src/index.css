@@ -2,8 +2,10 @@
 
 body {
   margin: 0 !important;
-  font-family: 'Indie Flower', cursive !important;
+  /* cursive */
+  font-family: 'Lato',  !important;
   /* 103, 180, 224 */
-  background-color: rgb(133, 150, 200) !important;; 
+  color : rgb(0, 0, 0) !important;
+  background-color: #B1D64B !important;; 
 }
 
