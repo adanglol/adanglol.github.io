@@ -59,6 +59,7 @@ import {Container,Row,Col} from 'react-bootstrap';
 
 
 
+
 // export keyword is used to export a function, class, or variable from a module.
 // use <> to return multiple components
 export function App() {
@@ -133,13 +134,13 @@ function About() {
         <br />
         <div className="col-lg-6 text">
           <br />
-          <h3>
+          <h3 className='fs-2'>
             Hello! I am Aaron Dangc, a passionate Game and Web Developer based in Central Valley.
             Here, you can learn more about me and my journey. I am dedicated to creating medias of play in form of games and websites. Feel free to
             explore my projects and get in touch if you have any inquiries. 
           </h3>
           <br />
-          <h3>In the realm of game and web development, I find solace and passion in the intricate dance between lines of code and the birth of virtual worlds.
+          <h3 className='fs-2'>In the realm of game and web development, I find solace and passion in the intricate dance between lines of code and the birth of virtual worlds.
           As someone deeply immersed in the world of programming, my journey as a developer is not just a profession but a relentless pursuit of turning ideas into tangible, interactive realities.</h3>
         <br />
           <div style={{ display: 'flex' }}>
