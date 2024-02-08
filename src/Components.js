@@ -23,6 +23,7 @@ export function NavbarComponent() {
           <Nav.Link className='fs-2 mr-3' as= {NavLink} to='/about'>About</Nav.Link>
           <Nav.Link className='fs-2'  as= {NavLink} to='/resume'>Resume</Nav.Link>
           <Nav.Link className='fs-2'  as= {NavLink} to='/projects'>Projects</Nav.Link>
+          <Nav.Link className='fs-2'  as= {NavLink} to='/logs'>Logs</Nav.Link>
           <Nav.Link className='fs-2'  as= {NavLink} to='/contact'>Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

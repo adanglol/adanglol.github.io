@@ -72,6 +72,7 @@ export function App() {
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='/resume' element={<Resume/>}/>
         <Route exact path='/projects' element={<Projects/>}/>
+        <Route exact path='/logs' element={<Logs/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
       </Routes>
     </Router>
@@ -330,6 +331,16 @@ function Projects() {
 
 
     </Container>
+    </>
+  );
+}
+
+
+function Logs(){
+  return(
+    <>
+      <h1 className='mt-5 pt-5 text-center display-1 mb-5'>Logs</h1>
+      <p className='display-6 text-center'>Where I will put my documentation on some of my work feel free check out!</p>
     </>
   );
 }
