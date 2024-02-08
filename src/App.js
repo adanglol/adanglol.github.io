@@ -35,6 +35,12 @@ import brainRhapsody from './images/project/Brain.png';
 // import unlocked image
 import unlocked from './images/project/Unlocked.png';
 
+// import Luxe Lagoon Gaming Lounge image
+import lagoon from './images/project/LAGOON.png';
+
+// import art 101 website image
+import art101 from './images/project/ART101.png';
+
 // Resume
 import pdf from './images/resume/RESUME.pdf';
 
@@ -320,6 +326,66 @@ function Projects() {
           <a href={postmortem3} target="_blank" rel="noopener noreferrer" download>
           <h3>Post Mortem 3</h3>
           </a>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://adanglol.github.io/luxelagoon-gaming-lounge/' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={lagoon} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Luxe Lagoon Gaming Lounge</b></h1>
+          <br/>
+          <h2>Technologies used: Phaser.JS</h2>
+          <br/>
+          <h2>Role: Lead Developer</h2>
+          <br/>
+          <h3>In the process of development. A series of casino like mini-games to enjoy. The games range from Blackjack, Texas Hold Em, Roulette, and Slots. The idea is learning to develop card games and a personal project / endeavor!</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://adanglol.github.io/luxelagoon-gaming-lounge/' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={art101} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Art 101 Website</b></h1>
+          <br/>
+          <h2>Technologies used: HTML,CSS,JS</h2>
+          <br/>
+          <h2>Role: Lead Developer</h2>
+          <br/>
+          <h3>Class Website for class took as undergraduate. Art 101 Computer Programming for the Arts in this class I learned the fundamentals of web development. That includes HTML,CSS, and JS. To also note also learned to use API's as well as the use of jQuery. In this site you will see various labs.</h3>
+          <br/>
           {/* Add more projects as needed */}
         </Col>
       </Row>
