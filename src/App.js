@@ -41,6 +41,11 @@ import lagoon from './images/project/LAGOON.png';
 // import art 101 website image
 import art101 from './images/project/ART101.png';
 
+// import El/La Landing Page image
+import ella from './images/project/El_La.png';
+
+// import Gauntlet image
+import gauntlet from './images/project/Gauntlet.png';
 // Resume
 import pdf from './images/resume/RESUME.pdf';
 
@@ -364,7 +369,7 @@ function Projects() {
       <Row className="mt-4">
         <Col lg={7} className='mb-4'>
 
-          <a href='https://adanglol.github.io/luxelagoon-gaming-lounge/' target="_blank" rel="noopener noreferrer">
+          <a href='https://adanglol.github.io/art101/' target="_blank" rel="noopener noreferrer">
             <div className = "image-container">
               <img src={art101} alt="Project 1" className="img-fluid" />
               <div className = "overlay">
@@ -385,6 +390,67 @@ function Projects() {
           <h2>Role: Lead Developer</h2>
           <br/>
           <h3>Class Website for class took as undergraduate. Art 101 Computer Programming for the Arts in this class I learned the fundamentals of web development. That includes HTML,CSS, and JS. To also note also learned to use API's as well as the use of jQuery. In this site you will see various labs.</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://el-la-landing-page.webflow.io/' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={ella} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>El/La Landing Page</b></h1>
+          <br/>
+          <h2>Technologies used: Webflow</h2>
+          <br/>
+          <h2>Role: Lead Developer</h2>
+          <br/>
+          <h3>Class Website for class took as undergraduate. Creating Websites for social change. In this class we have collaborated with El/La a TransLatinas activist organization which their mission statement advocating rights for TransLatinas. We had to make a landing page for El/La.</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://adanglol.itch.io/gauntlet' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={gauntlet} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Gauntlet</b></h1>
+          <br/>
+          <h2>Technologies used: Construct</h2>
+          <br/>
+          <h2>Role: Assistant Developer</h2>
+          <br/>
+          <h3>A platformer type game that was made during my freshman year in university for CMPM 80k. You go through series of levels dodging obstacles. The obstacles varies so you will have to be dilligent when traversing and dodging obstacles</h3>
           <br/>
           {/* Add more projects as needed */}
         </Col>
