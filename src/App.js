@@ -69,8 +69,6 @@ import {Link} from 'react-router-dom';
 import {Container,Row,Col} from 'react-bootstrap';
 
 
-
-
 // export keyword is used to export a function, class, or variable from a module.
 // use <> to return multiple components
 export function App() {
@@ -91,10 +89,12 @@ export function App() {
 }
 
 
-// Defining our views for nav bar
-// Brief intro - Highlight projects CTA CONTACT VISUAL APPEAL
 
 function Home() {
+  useEffect(() => {
+    document.title = 'Aaron Dangc - Creative Portfolio'
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className="text-center animate__animated animate__backInDown animate_slower vh-100 px-3">
@@ -111,19 +111,13 @@ function Home() {
           </div>
         </div>
       </div>
-
-      {/* <div className="text-center animate__animated animate__backInUp animate_slower vh-100 px-3">
-        <p className="fs-1">Projects</p>
-      </div> */}
-
-
     </>
   );
 }
 
 function About() {
   useEffect(() => {
-    // Scroll to the top of the page when the About component is rendered
+    document.title = 'Aaron Dangc - About'
     window.scrollTo(0, 0)
   }, [])
   return (
@@ -180,6 +174,10 @@ function About() {
 }
 
 function Resume() {
+  useEffect(() => {
+    document.title = 'Aaron Dangc - Resume'
+    window.scrollTo(0, 0)
+  }, [])
 
   return(
     <>
@@ -207,6 +205,10 @@ function Resume() {
 }
 
 function Projects() {
+  useEffect(() => {
+    document.title = 'Aaron Dangc - Projects'
+    window.scrollTo(0, 0)
+  }, [])
   return(
     <>
     <Container className="mt-5 pt-5">
@@ -469,6 +471,10 @@ function Projects() {
 
 
 function Logs(){
+  useEffect(() => {
+    document.title = 'Aaron Dangc - Logs'
+    window.scrollTo(0, 0)
+  }, [])
   return(
     <>
       <h1 className='mt-5 pt-5 text-center display-1 mb-5'>Logs</h1>
@@ -478,6 +484,10 @@ function Logs(){
 }
 
 function Contact() {
+  useEffect(() => {
+    document.title = 'Aaron Dangc - Contact'
+    window.scrollTo(0, 0)
+  }, [])
   return (
   <>
     <h1 className='mt-5 pt-5 text-center display-1'>CONTACT</h1>
@@ -487,8 +497,16 @@ function Contact() {
     {/* <br/>
     <br/> */}
     <p className='display-6 text-center'>Feel free to email me at : <a href="mailto:adraging@gmail.com">adraging@gmail.com</a></p>
-    {/* <br/>
-    <br/> */}
+    <br/>
+    <br/>
+    <p className='display-6 text-center'>If you prefer to text or call : 209-355-9633</p>
+    <br/>
+    <br/>
+    <p className='display-6 text-center'>You can also find me on <a href='https://www.linkedin.com/in/aaron-dangc-04897123b/' target='_blank' rel='noopener noreferrer'>LinkedIn</a></p>
+    <br/>
+    <br/>
+    <p className='display-6 text-center'>Looking foward to hearing from you!</p>
+
     {/* <Components.ContactForm/> */}
   </>
   );
