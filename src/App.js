@@ -478,7 +478,19 @@ function Logs(){
   return(
     <>
       <h1 className='mt-5 pt-5 text-center display-1 mb-5'>Logs</h1>
-      <p className='display-6 text-center'>Where I will put my documentation on some of my work feel free check out!</p>
+      <p className='display-6 text-center'>Where I will put my documentation on some of my work feel free check out!</p>\
+
+      <h1 className='text-center display-1'>Games</h1>
+      <p className='display-6 text-center'>Here are some of my logs for the games I made!</p>
+      
+      <p className='display-6 text-center'><a href='https://drive.google.com/drive/folders/1QEGIGLJckIKa351msFe2Myx3RuJ3nCv9?usp=sharing' target="_blank" rel="noopener noreferrer">Green Serenity</a></p>
+      <p className='display-6 text-center'><a href='https://drive.google.com/drive/folders/16rXuDZ3nJ3lrhxc3lCbOUA0IQXSItOGO?usp=sharing' target="_blank" rel="noopener noreferrer">Brain Rhapsody</a></p>
+      <p className='display-6 text-center'><a href='https://drive.google.com/drive/folders/1YyXlXqZJZvpqHTeX3Chdfa_QIxyS6Qn4?usp=sharing' target="_blank" rel="noopener noreferrer">Unlocked</a></p>
+      
+      <h1 className='mt-1 pt-5 text-center display-1'>Bonus</h1>
+      <p className='display-6 text-center'><a href='https://drive.google.com/drive/folders/1eGITTuHrWfcYoJo-vlOM2ck24EovhAyR?usp=sharing' target="_blank" rel="noopener noreferrer">here</a></p>
+
+      
     </>
   );
 }
@@ -503,6 +515,9 @@ function Contact() {
     <br/>
     <br/>
     <p className='display-6 text-center'>You can also find me on <a href='https://www.linkedin.com/in/aaron-dangc-04897123b/' target='_blank' rel='noopener noreferrer'>LinkedIn</a></p>
+    <br/>
+    <br/>
+    <p className='display-6 text-center'>My Itch : <a href='https://adanglol.itch.io/' target="_blank" rel="noopener noreferrer">Itch</a></p>
     <br/>
     <br/>
     <p className='display-6 text-center'>Looking foward to hearing from you!</p>
