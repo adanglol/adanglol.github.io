@@ -511,10 +511,7 @@ function Contact() {
     <p className='display-6 text-center'>Feel free to email me at : <a href="mailto:adraging@gmail.com">adraging@gmail.com</a></p>
     <br/>
     <br/>
-    <p className='display-6 text-center'>If you prefer to text or call : 209-355-9633</p>
-    <br/>
-    <br/>
-    <p className='display-6 text-center'>You can also find me on <a href='https://www.linkedin.com/in/aaron-dangc-04897123b/' target='_blank' rel='noopener noreferrer'>LinkedIn</a></p>
+    <p className='display-6 text-center'>You can also find me on <a href='https://www.linkedin.com/in/adanglol/' target='_blank' rel='noopener noreferrer'>LinkedIn</a></p>
     <br/>
     <br/>
     <p className='display-6 text-center'>My Itch : <a href='https://adanglol.itch.io/' target="_blank" rel="noopener noreferrer">Itch</a></p>
