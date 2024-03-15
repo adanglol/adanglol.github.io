@@ -46,8 +46,13 @@ import ella from './images/project/El_La.png';
 
 // import Gauntlet image
 import gauntlet from './images/project/Gauntlet.png';
+
+// import Chimera image
+import chimera from './images/project/chimerafull.png'
 // Resume
 import pdf from './images/resume/RESUME.pdf';
+
+
 
 // CRV
 import CRV from './images/resume/CRV.pdf';
@@ -432,6 +437,37 @@ function Projects() {
       <Row className="mt-4">
         <Col lg={7} className='mb-4'>
 
+          <a href='https://goobaby.itch.io/chimera' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={chimera} alt="Project 1" className="img-fluid" style={{width: '100%', height: 'auto'}} />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Chimera</b></h1>
+          <br/>
+          <h2>Technologies used: Godot</h2>
+          <br/>
+          <h2>Role: Programmer</h2>
+          <br/>
+          <h3>In the heart of a fantastical world teeming with mythical creatures and ancient magic, players embark on an epic journey in "Chimera," a thrilling boss rush game that promises pulse-pounding action and strategic gameplay. Set against a backdrop of breathtaking landscapes and intricate dungeons, "Chimera" invites players to challenge powerful adversaries and harness their unique abilities to emerge victorious.</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
           <a href='https://adanglol.itch.io/gauntlet' target="_blank" rel="noopener noreferrer">
             <div className = "image-container">
               <img src={gauntlet} alt="Project 1" className="img-fluid" />
@@ -457,6 +493,10 @@ function Projects() {
           {/* Add more projects as needed */}
         </Col>
       </Row>
+
+
+
+
       <hr className="my-5" />
       <h2 className='text-center'>These are some of my projects if interested in others they are all in my <a href = "https://github.com/adanglol" target='_blank' rel="noopener noreferrer">github</a>!</h2>
       <hr className="my-5" />
