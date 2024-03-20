@@ -50,7 +50,7 @@ import gauntlet from './images/project/Gauntlet.png';
 // import Chimera image
 import chimera from './images/project/chimerafull.png'
 // Resume
-import pdf from './images/resume/RESUME.pdf';
+import pdf from './images/resume/Resume - Dangc Aaron.pdf';
 
 
 
