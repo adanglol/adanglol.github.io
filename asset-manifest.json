@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7a156ec.css",
-    "main.js": "/static/js/main.a34167b0.js",
+    "main.js": "/static/js/main.05816068.js",
     "static/js/787.88e1fa07.chunk.js": "/static/js/787.88e1fa07.chunk.js",
     "static/media/El_La.png": "/static/media/El_La.87638048db3a9863f369.png",
     "static/media/Jam3.pdf": "/static/media/Jam3.0e020a28b28228a8085e.pdf",
@@ -16,15 +16,15 @@
     "static/media/Jam2.pdf": "/static/media/Jam2.788220951d5a381c43dd.pdf",
     "static/media/Brain.png": "/static/media/Brain.caf496a55b9d10f94251.png",
     "static/media/CRV.pdf": "/static/media/CRV.2e37e3071b79a83412c0.pdf",
-    "static/media/RESUME.pdf": "/static/media/RESUME.574fce2e0f2a6da9f9ac.pdf",
+    "static/media/Resume - Dangc Aaron.pdf": "/static/media/Resume - Dangc Aaron.2a34ae809aaf349108d9.pdf",
     "static/media/Gauntlet.png": "/static/media/Gauntlet.af8e0837b3e35b9f30d5.png",
     "index.html": "/index.html",
     "main.e7a156ec.css.map": "/static/css/main.e7a156ec.css.map",
-    "main.a34167b0.js.map": "/static/js/main.a34167b0.js.map",
+    "main.05816068.js.map": "/static/js/main.05816068.js.map",
     "787.88e1fa07.chunk.js.map": "/static/js/787.88e1fa07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7a156ec.css",
-    "static/js/main.a34167b0.js"
+    "static/js/main.05816068.js"
   ]
 }
