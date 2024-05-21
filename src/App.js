@@ -49,6 +49,9 @@ import gauntlet from './images/project/Gauntlet.png';
 
 // import Chimera image
 import chimera from './images/project/chimerafull.png'
+
+// import PicMixer image
+import picmixer from './images/project/picMix.png';
 // Resume
 import pdf from './images/resume/Resume - Dangc Aaron.pdf';
 
@@ -65,6 +68,7 @@ import postmortem from './images/resume/Jam1.pdf';
 import postmortem2 from './images/resume/Jam2.pdf';
 
 import postmortem3 from './images/resume/Jam3.pdf';
+
 
 
 // routing for our views 
@@ -489,6 +493,36 @@ function Projects() {
           <h2>Role: Assistant Developer</h2>
           <br/>
           <h3>A platformer type game that was made during my freshman year in university for CMPM 80k. You go through series of levels dodging obstacles. The obstacles varies so you will have to be dilligent when traversing and dodging obstacles</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+
+      <hr className="my-5" />
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://adanglol.github.io/PicMixer/' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={picmixer} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>PicMixer</b></h1>
+          <br/>
+          <h2>Technologies used: HTML,CSS,JS,jQuery,Canvas API</h2>
+          <br/>
+          <h2>Role: Developer</h2>
+          <br/>
+          <h3>A Website created that lets you pixelate images. It uses the Canvas Api and HTML,CSS,JS. Definetly see more potential exapnding project but yeah try it out!</h3>
           <br/>
           {/* Add more projects as needed */}
         </Col>
