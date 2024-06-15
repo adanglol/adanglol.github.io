@@ -50,6 +50,10 @@ import gauntlet from './images/project/Gauntlet.png';
 // import Chimera image
 import chimera from './images/project/chimerafull.png'
 
+
+// import sherman's quest image
+import sherman from './images/project/veilwooodj.png';
+
 // import PicMixer image
 import picmixer from './images/project/picMix.png';
 // Resume
@@ -223,6 +227,40 @@ function Projects() {
     <Container className="mt-5 pt-5">
       <h1 className='text-center display-1'>Projects</h1>
       <br/>
+
+
+
+      {/* <hr className="my-5" /> */}
+      <Row className="mt-4">
+        <Col lg={7} className='mb-4'>
+
+          <a href='https://golfbag.itch.io/shermans-quest' target="_blank" rel="noopener noreferrer">
+            <div className = "image-container">
+              <img src={sherman} alt="Project 1" className="img-fluid" />
+              <div className = "overlay">
+                  <h1 className='text-center display-1 text'>Visit Project</h1>
+              </div>
+            </div>
+          </a>
+
+        </Col>
+        
+    
+        {/* Second column with texts and links */}
+        <Col lg={5}>
+          <h1><b>Sherman's Quest</b></h1>
+          <br/>
+          <h2>Technologies used: C# and Unity</h2>
+          <br/>
+          <h2>Role: Programmer</h2>
+          <br/>
+          <h3>In this enchanting adventure, you step into the shoes of Sherman, a curious and brave young boy living in the heart of Veilwood Village. Sherman’s days are filled with the simple joys of village life and helping his sister with errands. Is everything as it seems?</h3>
+          <br/>
+          {/* Add more projects as needed */}
+        </Col>
+      </Row>
+      <hr className="my-5" />
+
       <Row className="mt-4">
         <Col lg={7} className = "mb-4">
           <a href='https://remogarc.github.io/CMPM120Final/' target="_blank" rel="noopener noreferrer">
@@ -302,7 +340,7 @@ function Projects() {
           <br/>
           <h2>Technologies used: Unity</h2>
           <br/>
-          <h2>Role: Lead Programmer</h2>
+          <h2>Role:Programmer</h2>
           <br/>
           <h3>Bullet Hell style game. Story takes place within a lecture hall as you take some candies and start tripping out. Suddenly monsters come to get you. You have 4 forms and have to swap between each one to fight the horde. This game was created during the second Jam for my 170 class. Also my first exposure of using Unity to make this kinda game.</h3>
           <br/>
