@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7a156ec.css",
-    "main.js": "/static/js/main.f619b650.js",
+    "main.js": "/static/js/main.e6ffe9f3.js",
     "static/js/787.88e1fa07.chunk.js": "/static/js/787.88e1fa07.chunk.js",
     "static/media/veilwooodj.png": "/static/media/veilwooodj.e6a7ee34e951acad9bd8.png",
     "static/media/El_La.png": "/static/media/El_La.87638048db3a9863f369.png",
@@ -16,17 +16,17 @@
     "static/media/LAGOON.png": "/static/media/LAGOON.2a2cfc92cdbdb4cb813b.png",
     "static/media/Jam2.pdf": "/static/media/Jam2.788220951d5a381c43dd.pdf",
     "static/media/Brain.png": "/static/media/Brain.caf496a55b9d10f94251.png",
+    "static/media/Aaron__Dangc_-_Computer_Programmer.pdf": "/static/media/Aaron__Dangc_-_Computer_Programmer.b1e4b71ba8b0fdea5b00.pdf",
     "static/media/CRV.pdf": "/static/media/CRV.2e37e3071b79a83412c0.pdf",
-    "static/media/Resume - Dangc Aaron.pdf": "/static/media/Resume - Dangc Aaron.2a34ae809aaf349108d9.pdf",
     "static/media/picMix.png": "/static/media/picMix.8718b1f04bb21a7becec.png",
     "static/media/Gauntlet.png": "/static/media/Gauntlet.af8e0837b3e35b9f30d5.png",
     "index.html": "/index.html",
     "main.e7a156ec.css.map": "/static/css/main.e7a156ec.css.map",
-    "main.f619b650.js.map": "/static/js/main.f619b650.js.map",
+    "main.e6ffe9f3.js.map": "/static/js/main.e6ffe9f3.js.map",
     "787.88e1fa07.chunk.js.map": "/static/js/787.88e1fa07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7a156ec.css",
-    "static/js/main.f619b650.js"
+    "static/js/main.e6ffe9f3.js"
   ]
 }
