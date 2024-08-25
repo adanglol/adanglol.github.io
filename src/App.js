@@ -57,9 +57,9 @@ import sherman from './images/project/veilwooodj.png';
 // import PicMixer image
 import picmixer from './images/project/picMix.png';
 // Resume
-import pdf from './images/resume/Resume - Dangc Aaron.pdf';
+import pdf from './images/resume/Aaron__Dangc_-_Computer_Programmer.pdf';
 
-
+// ./images/resume/Aaron__Dangc_-_Computer_Programmer.pdf
 
 // CRV
 import CRV from './images/resume/CRV.pdf';
