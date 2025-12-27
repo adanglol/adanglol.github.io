@@ -1,44 +1,50 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faLaptopCode, faGamepad } from '@fortawesome/free-solid-svg-icons';
+
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
-const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
+const labelsDataAnalysis = [
+    "Aeries",
+    "CALPADS",
+    "Excel",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Python",
+    "Pandas",
+    "Data Cleaning",
+    "Data Validation",
+    "Reporting",
 ];
 
-const labelsSecond = [
+const labelsSoftwareDevelopment = [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Python",
+    "HTML",
+    "CSS",
+    "APIs",
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Full-Stack Development",
+    "Web Applications",
+    "Prototyping"
 ];
 
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+const labelsGameDevelopment = [
+    "Unity",
+    "Godot",
+    "Phaser.JS",
+    "Gameplay Systems",
+    "State Machines",
+    "Physics",
+    "UI Systems",
+    "Prototyping",
+    "Player Experience",
+    "Scripting",
+    "Iterative Design"
 ];
 
 function Expertise() {
@@ -48,36 +54,42 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
+                    <h3>Data Analysis</h3>
+                    <p>Work with structured datasets to review, clean, and validate
+                        data for reporting and operational support. Focus on data accuracy,
+                        documentation, and learning established workflows in a production environment.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {labelsDataAnalysis.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faLaptopCode} size="3x"/>
+                    <h3>Software Development</h3>
+                    <p>Build and maintain full-stack web applications, dashboards, and internal tools.
+                        Focus on frontend and backend development, API integration, and iterative project
+                        delivery using modern web technologies.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
+                        {labelsSoftwareDevelopment.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faGamepad} size="3x"/>
+                    <h3>Game Development</h3>
+                    <p>Explore interactive systems and prototype game mechanics for personal
+                        projects. Focus on gameplay, user experience, and iterative development,
+                        gaining experience with engines, scripting, and design patterns.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
+                        {labelsGameDevelopment.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
