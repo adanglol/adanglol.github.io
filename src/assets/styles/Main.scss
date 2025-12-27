@@ -164,8 +164,20 @@
         }
 
         .about-section .image-wrapper {
-            padding-left: 5%;
-            width: 100%;
+            // padding-left: 5%;
+            // width: 100%;
+            width: 150px;      // keep it same as desktop
+            height: 150px;     // keep it same as desktop
+            margin: 0 auto 20px auto; // center horizontally, add spacing below
+            border-radius: 50%;
+            overflow: hidden;
+            display: block;
         }
+        .about-section .image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; // optional: adjust focus if needed
+    }
     }
 }
